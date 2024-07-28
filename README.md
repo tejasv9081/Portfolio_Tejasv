@@ -1,4 +1,4 @@
-#**Tejasv Goyal - Portfolio Website**
+# Tejasv Goyal - Portfolio Website
 
 **👨‍💻 About Me**
 
