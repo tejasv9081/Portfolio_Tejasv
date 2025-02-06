@@ -459,10 +459,9 @@ section {
 }
 
 
-/* Projects Section Styling */
-
 .projects {
     background-color: #f9f9f9;
+    padding: 40px;
 }
 
 .projects-grid {
@@ -479,11 +478,13 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover Effects */
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Image Styling */
 .project-image {
     height: 180px;
     overflow: hidden;
@@ -500,6 +501,7 @@ section {
     transform: scale(1.05);
 }
 
+/* Content Styling */
 .project-content {
     padding: 20px;
     text-align: center;
@@ -519,6 +521,7 @@ section {
     line-height: 1.6;
 }
 
+/* Button Styling */
 .project-link {
     display: inline-block;
     padding: 8px 16px;
@@ -534,6 +537,16 @@ section {
     background-color: #3060e0;
 }
 
+/* Responsive Grid Adjustment */
+@media (min-width: 768px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    
+}
 
 /* Skills Section Styling */
 
