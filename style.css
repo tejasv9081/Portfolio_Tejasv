@@ -784,7 +784,9 @@ section {
 .cert-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Changed from space-between to center */
+    max-width: 1000px;        /* Optional: keeps layout neat on wide screens */
+    margin: 0 auto;           /* Centers the whole container */
 }
 
 .cert-content .cert-box {
@@ -829,6 +831,7 @@ section {
         width: 100%;
     }
 }
+
 
 
 /* Contact Section Styling */
