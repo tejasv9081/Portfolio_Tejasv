@@ -465,10 +465,12 @@ section {
 }
 
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items on the last row */
     gap: 20px;
 }
+
 
 .project-card {
     background-color: #fff;
