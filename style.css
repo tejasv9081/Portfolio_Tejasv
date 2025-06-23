@@ -481,10 +481,15 @@ section {
 }
 
 /* Hover Effects */
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+.project-card {
+    width: 300px; /* Adjust as needed */
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 /* Image Styling */
 .project-image {
@@ -541,11 +546,11 @@ section {
 
 /* Responsive Grid Adjustment */
 @media (min-width: 768px) {
-    .projects-grid {
+/*     .projects-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-    }
+    } */
 
     
 }
